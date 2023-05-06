@@ -1,0 +1,19 @@
+- name: FTP Deploy Locaweb
+  # You may pin to the exact commit or the version.
+  # uses: locaweb/ftp-deploy@a69dfe5b26c55007658dce15a17917250282f9cc
+  uses: locaweb/ftp-deploy@1.0.0
+  with:
+    # FTP host
+    host: ${{ secrets.HOST }}
+    # FTP user
+    user: ${{ secrets.USER }}
+    # FTP password
+    password: ${{ secrets.PASSWORD }}
+    # Force SSL encryption
+    forceSsl: # optional, default is false
+    # Local directory
+    localDir: # optional, default is .
+    # Remote directory
+    remoteDir: ./public_html/subdomains/ide # optional, default is public_html
+    # Additional mirror command options
+    options: # optional, default is 
