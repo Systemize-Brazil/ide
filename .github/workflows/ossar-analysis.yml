@@ -1,4 +1,4 @@
-# This workflow integrates a collection of open source static analysis tools
+# This workflow integrates a collection of open source static analysis tool
 # with GitHub code scanning. For documentation, or to provide feedback, visit
 # https://github.com/github/ossar-action
 name: OSSAR
