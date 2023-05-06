@@ -9,11 +9,8 @@
     user: ${{ secrets.USER }}
     # FTP password
     password: ${{ secrets.PASSWORD }}
-    # Force SSL encryption
-    forceSsl: # optional, default is false
     # Local directory
     localDir: # optional, default is .
     # Remote directory
     remoteDir: ./public_html/subdomains/ide # optional, default is public_html
-    # Additional mirror command options
-    options: # optional, default is 
+
